@@ -107,6 +107,8 @@ u{
   display: flex;
   padding: 20px;
   height: 450;
+  gap: 20px;
+  flex-direction: column;
 }
 #hobby1{
     background-color: darkcyan;
