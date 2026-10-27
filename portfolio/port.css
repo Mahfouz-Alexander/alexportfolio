@@ -96,6 +96,7 @@ width: 150px;
 #hobby{
     color: white;
     font-size: 24px;
+    display:flex;
 }
 u{
     color: green;
@@ -104,10 +105,8 @@ u{
   font-size: 20px;
   color: white;
   display: flex;
-  
   padding: 20px;
   height: 450;
-  gap: 20px;
 }
 #hobby1{
     background-color: darkcyan;
