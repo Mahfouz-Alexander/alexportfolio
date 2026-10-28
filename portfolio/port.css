@@ -1,133 +1,136 @@
 body{
-    background-color: rgb(75, 75, 53);
+    background-image: linear-gradient(rgb(219, 115, 132));
+}
+img{
+border-radius: 50%;
+border-style: groove;
+border-color: gold;
+}
+#profile{
+    width: 50%;
     
+}
+#profile>#name{
+    color: white;
+    font-size: 24px;
+    font-family: algerian;
 }
 h1{
     color: white;
-}
-#profile{
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    font-family: Algerian;
-    font-weight: bold;
-    color: rgb(9, 141, 42);
-    font-size: 30px;
-}
-profile, img{
-border-radius: 50%;
+    text-align: center;
 }
 #intro{
-color: purple;
-    background-color: burlywood;
-    text-align: center;
-    font-size: 25px;
-}
-ol li{
-        list-style: none;
-}
-sup{
-    font-weight: bold;
-}
-header{
-    background-color: turquoise;
-    width: 97%;
-    margin-bottom: 10%;
-    padding: 20;
-    font-size: 24px;
-}
-nav li{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-footer{
-    font-size: 30px;
-    font-family: forte;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-}
-.edu{
-    font-size: 1.5 em;
-    color: white;
-  display:flex;
-  justify-content: center;
-  padding: 20px;
-  height: 450;
-text-align: center;
-gap: 20px;
-}
-.card1{
-    background-color: darkcyan;
-border-color: aqua;
-border-radius: 12px;
-border-color: white;
-border-style: groove;
-width: 150px;
-}
-.card1 h2{
-    background-color: rgb(26, 16, 3);
-    border-radius: 5px;
-}
-.card2 h2{
-    background-color: rgb(26, 16, 3);
-    border-radius: 5px;
-}
-.card2{
-    background-color: darkcyan;
-border-color: aqua;
-border-radius: 12px;
-border-style: groove;
-border-color: white;
-width: 150px;
-}
-.card3 h2{
-    background-color: rgb(26, 16, 3);
-    border-radius: 5px;
-}
-.card3{
-    background-color: darkcyan;
-border-radius: 12px;
-border-color: white;
-border-style:groove;
-width: 150px;
-}
-#hobby{
-    color: white;
-    font-size: 24px;
-    display:flex;
+    background-color: wheat;
+    font-size: medium;
 }
 u{
-    color: green;
+    color: blue;
+    font-size: 30px;
 }
-#container{
-  font-size: 20px;
-  color: white;
-  display: flex;
-  padding: 20px;
-  height: 450;
-  gap: 20px;
-  flex-direction: column;
+#intro p{
+    font-size: 18px;
+}
+footer{
+    color: white;
+    font-family: forte;
+    font-size: 30px;
+}
+.edu{
+    display: flex;
+    gap: 20px;
+}
+.card1{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border-style: groove;
+    
+}
+.card1 h2{
+    background-color: aquamarine;
+    border-radius: 8px;
+    color: blue;
+}
+.card1 p{
+    font-size: 18px;
+}
+.card2{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border-style: groove;
+}
+.card2 h2{
+    background-color: aquamarine;
+    border-radius: 8px;
+    color: blue;
+}
+.card2 {
+    font-size: 18px;
+}
+.card3{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border-style: groove;
+}
+.card3 h2{
+    background-color: aquamarine;
+    border-radius: 8px;
+    color: blue;
+}
+.card3 p{
+    font-size: 18px;
+}
+h2{
+    font-size: 28px;
+}
+ol li{
+    font-size: 24px;
+}
+#intro h1{
+    color:blue;
+}
+#contacts{
+    text-align: center;
+}
+#contacts label{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+#contacts h3{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+#contacts a{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+#hobby h2{
+    color: white;
+    font-size: 35px;
+}
+#hobby p{
+    color: white;
+    font-size: 24px;
 }
 #hobby1{
-    background-color: darkcyan;
-border-color: aqua;
-border-radius: 12px;
-border-style: groove;
-border-color: white;
-width: 550px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: darkviolet;
+}
+#hobby1 p{
+    color: black;
+    font-size: 24px;
 }
 #hobby2{
-    background-color: darkcyan;
-border-color: aqua;
-border-radius: 12px;
-border-style: groove;
-border-color: white;
-width: 550px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border-style: groove;
+        border-color: darkviolet;
 }
-label{
-    font-size: 25px;
-    color:blue;
-    font-weight: bold;
+#hobby2 p{
+    color: black;
+    font-size: 24px;
 }
