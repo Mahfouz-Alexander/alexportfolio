@@ -1,0 +1,57 @@
+.profile-picture{
+    width:180px;
+    height:200px;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: antiquewhite;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header nav, header nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+}
+header nav ul{
+    list-style: none;
+    flex-wrap: wrap;
+}
+a, h3{
+    color:blue;
+    text-decoration: none;
+}
+section{
+    padding: 40px 8%;
+}
+h1{
+    font-size: 30px;
+}
+article{
+    background: darkslategray;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+footer{
+    background: darkslateblue;
+    text-align: center;
+    padding: 20px;
+}
+@media(max-width:600px){
+    header nav{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
