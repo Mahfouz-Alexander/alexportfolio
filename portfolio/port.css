@@ -6,14 +6,21 @@ border-radius: 50%;
 border-style: groove;
 border-color: gold;
 }
+img:hover{
+    scale: 1.1;
+}
 #profile{
     width: 50%;
-    
+    display: flex;
 }
 #profile>#name{
     color: white;
     font-size: 24px;
     font-family: algerian;
+}
+header{
+    display:flex;
+font-size: larger;
 }
 h1{
     color: white;
@@ -133,4 +140,14 @@ ol li{
 #hobby2 p{
     color: black;
     font-size: 24px;
+}
+h2{
+    color: aliceblue;
+    font-style: italic;
+}
+#skills{
+font-size: 24px;
+}
+#hskills{
+font-size: 24px;
 }
