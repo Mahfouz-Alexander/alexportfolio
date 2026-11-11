@@ -9,6 +9,7 @@ width: 80%;
 }
 img:hover{
     scale: 1.1;
+    border-color: aqua;
 }
 #profile{
     width: 80%;
@@ -21,8 +22,7 @@ img:hover{
 }
 header{
     display:flex;
-font-size: larger;
-font-size: larger;
+font-size: xx-large;
 font-weight: bold;
 }
 h1{
@@ -56,6 +56,10 @@ footer{
     border-style: groove;
      width: 80%;
 }
+.card1:hover{
+    scale: 1.1;
+    border-color: aqua;
+}
 .card1 h2{
     background-color: aquamarine;
     border-radius: 8px;
@@ -72,6 +76,10 @@ footer{
     border-style: groove;
      width: 80%;
 }
+.card2:hover{
+    scale: 1.1;
+    border-color: aqua;
+}
 .card2 h2{
     background-color: aquamarine;
     border-radius: 8px;
@@ -86,6 +94,10 @@ footer{
     border-radius: 15px;
     border-style: groove;
      width: 80%;
+}
+.card3:hover{
+    scale: 1.1;
+    border-color: aqua;
 }
 .card3 h2{
     background-color: aquamarine;
