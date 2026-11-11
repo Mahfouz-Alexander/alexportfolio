@@ -5,13 +5,13 @@ img{
 border-radius: 50%;
 border-style: groove;
 border-color: gold;
-width: 50%;
+width: 80%;
 }
 img:hover{
     scale: 1.1;
 }
 #profile{
-    width: 50%;
+    width: 80%;
     display: flex;
 }
 #profile>#name{
@@ -46,29 +46,29 @@ footer{
 .edu{
     display: flex;
     gap: 20px;
-    width: 50%;
+    width: 80%;
 }
 .card1{
     background-color: antiquewhite;
     border-radius: 15px;
     border-style: groove;
-     width: 50%;
+     width: 80%;
 }
 .card1 h2{
     background-color: aquamarine;
     border-radius: 8px;
     color: blue;
-     width: 50%;
+     width: 80%;
 }
 .card1 p{
     font-size: 18px;
-     width: 50%;
+     width: 80%;
 }
 .card2{
     background-color: antiquewhite;
     border-radius: 15px;
     border-style: groove;
-     width: 50%;
+     width: 80%;
 }
 .card2 h2{
     background-color: aquamarine;
@@ -77,13 +77,13 @@ footer{
 }
 .card2 {
     font-size: 18px;
-     width: 50%;
+     width: 80%;
 }
 .card3{
     background-color: antiquewhite;
     border-radius: 15px;
     border-style: groove;
-     width: 50%;
+     width: 80%;
 }
 .card3 h2{
     background-color: aquamarine;
@@ -104,7 +104,7 @@ ol li{
 }
 #contacts{
     text-align: center;
-     width: 50%;
+     width: 80%;
 }
 #contacts label{
     color: blue;
@@ -134,7 +134,7 @@ ol li{
     border-radius: 15px;
     border-style: groove;
     border-color: darkviolet;
-     width: 50%;
+     width: 80%;
 }
 #hobby1 p{
     color: black;
@@ -145,7 +145,7 @@ ol li{
     border-radius: 15px;
     border-style: groove;
         border-color: darkviolet;
-         width: 50%;
+         width: 80%;
 }
 #hobby2 p{
     color: black;
