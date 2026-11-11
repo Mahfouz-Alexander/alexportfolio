@@ -15,10 +15,10 @@ img:hover{
     width: 80%;
     display: flex;
 }
-#profile>#name{
+#name{
     color: white;
-    font-size: 24px;
     font-family: algerian;
+    font-size: 60px;
 }
 header{
     display:flex;
